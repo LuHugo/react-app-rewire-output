@@ -1,0 +1,9 @@
+{
+  "name": "react-app-rewire-output",
+  "version": "1.0.0",
+  "description": "Use react-app-rewired to modify the default output options",
+  "main": "index.js",
+  "repository": "https://github.com/LuHugo/react-app-rewire-output.git",
+  "author": "LuHugo <lyyonlive@gmail.com>",
+  "license": "MIT"
+}
