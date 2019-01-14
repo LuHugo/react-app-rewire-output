@@ -16,11 +16,12 @@ npm install --dev LuHugo/react-app-rewire-output
 ```javascript
   const rewireOutput = require('react-app-rewire-output');
   module.exports = function override(config, env) {
+
     if (env === 'production') {
-			config = rewireOutput({
-				path: './dist'
-			})(config, env);
-		}
+      config = rewireOutput({
+        path: './dist'
+      })(config, env);
+    }
     return config;
   }
 ```
